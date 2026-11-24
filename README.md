@@ -86,3 +86,8 @@ This project uses a practice dataset. Any simulated hire dates are for demonstra
 Data Analytics Portfolio Project
 
 Skills: Power BI | DAX | Power Query | Data Visualization | Data Analysis
+
+## Dashboard Preview
+
+<img width="925" height="1065" alt="HR_Analytics_Dashboard" src="https://github.com/user-attachments/assets/c6e2258e-42c1-47b6-b244-86c26d1de01f" />
+
