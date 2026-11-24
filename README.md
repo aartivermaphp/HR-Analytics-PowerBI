@@ -41,7 +41,7 @@ The dashboard helps HR teams understand employee turnover, identify departments 
 **Total Employees**
 ```dax
 Total Employees =
-DISTINCTCOUNT('HR Data'[EmployeeNumber])
+DISTINCTCOUNT('HR_Employee_Data'[EmployeeID])
 ```
 
 **Attrition Count**
@@ -49,7 +49,7 @@ DISTINCTCOUNT('HR Data'[EmployeeNumber])
 Attrition Count =
 CALCULATE(
     [Total Employees],
-    'HR Data'[Attrition] = "Yes"
+    'HR_Employee_Data'[Attrition] = "Yes"
 )
 ```
 
@@ -66,7 +66,7 @@ DIVIDE(
 **Average Salary**
 ```dax
 Average Salary =
-AVERAGE('HR Data'[MonthlyIncome])
+AVERAGE('HR_Employee_Data'[Salary])
 ```
 
 ## Project Files
